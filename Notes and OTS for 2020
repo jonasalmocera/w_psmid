@@ -1,0 +1,120 @@
+Notes and OTS for 2020
+
+
+
+NORECOII MEETING - 01012020
+
+-Prioritization of Data Migration for historical data.
+-Acceptance of special characters when processing account name and such, hyphen and aposthrophee.
+
+-Reporting on meter reading and percentage of its targer per day.
+-adjustment on billing date???
+-preparation of formulas is a must.
+-interest should be after the due date??
+-readings should get last month if present month is blank  or not available.
+-adjustments vs downloadding of schedules on when is when
+-reporting on subclass should also segregate on main class (resedential -> net metering)
+-billing adjustments on period should have closing as well
+
+GTESUPPORT_01
+gte@@support
+
+Maam, good morning maam. Maam mangayo lang kog gamay extension maam kay nilarga ko pag holidays sa province nagka emergency jud ko. Karon rako nakabalik,
+bsag 3 days lang maam, sa Thursday ta makasugod. Pasensya jd kaau maam kay wa jud nalihok sa holidays.
+
+
+. SCOPING
+	-specification of requirements
+		-objective and purpose of the application
+		-features that should be inlcuded in the application
+		-defining the users and audience of the application
+	-definition of content and limitations
+		-what content should be included to the app? Is it limited to 
+		specific areas of health
+	-sprint planning
+		-creating the appropriate schedules and timeline for each process	
+2. WIREFRAME
+	-creating a storyboard and process flow of the application.
+	-creating a mock design
+3. DB DESIGN
+	-creating the database structure and fields
+4. UI DESIGN
+	-creating the UI/UX design of the application
+		-mobile
+			-ios and android
+		-web
+			-admin panel
+5. CONTENT MANAGEMENT
+	-creating the knowledgebase for the different diseases
+	-adding contents/infographics/details on the application
+		-mobile
+		-web
+6. DEV
+	-start of programming and development
+		-ios and android
+		-api
+		-web
+	-code integration	
+7. TESTING
+	-creating test case
+	-QA and Testing
+	-User Acceptance
+8. DEPLOYMENT AND MAINTENANCE
+	-Server Deployment
+		-Setting Up Prod, DB and Certification in prod server
+	-Support
+
+1. PRINCE
+	-Staging Txtmanager is already live at our GTE staging
+	-to be followed, access rights and bulk uploading
+	-Raw data request with approval from RISA.
+2. RAFI
+	-Contacting Admin to check on webservice from their end.
+	-Modified fetcher to attempt to reconnect to their db if the issue still continues.
+3. CENECO
+	-Reconstruct database based on noreco issues.
+		
+RAFI old syncer
+E:\Projects Updated\Rafi Finance\old syncer\TxtAssistantWService\TxtAssistantWService\bin\Debug		
+
+-DEMO
+-TAYA
+-PRINCE
+
+masyador //
+prince /waiting for may
+gemmary //
+shdw /for testing
+prince tas /todo
+
+Hi miss Pearl,
+
+Regarding your concerns:
+Contacts < Can't use add contacts, filter and select contacts simultaneously. The system was developed this way to separate sending by filters, individual and by uploading. //done
+Messages < Compose < Parameter - add "Member ID" (same for message template). NOTED. This will be implemented. //done
+Messages < Compose < You can remove full name, group, account name, date added (same for message template)  NOTED. This will be implemented. //done
+Have drop down choices for filters ( branch, region) - can we do multiple selection NOTED. This will be implemented. (Multiple selection is accepted) //done
+Concern
+Gender and Network (not dropping down choices)  NOTED. This will be implemented //done
+Is there a way to know how many SMS are to be sent after identifying contacts?  //done   NOTED. This will be implemented
+
+
+SHADOW //FOR TESTING MONDAY
+NGAPP // 
+PRINCE
+
+
+1. PRINCE
+	-Staging Txtmanager demo and UAT will start tomorrow for Feb 6 blasting.
+	-Preparation for UAT files.
+	-Finishing uploading of contacts
+
+	-Missing transaction occured again, added already to the backend. Investigation will be done this week.
+	-investigation on an issue on payment of transaction occured 5 times instead of 1.
+2. RAFI
+	-Still in contacts for the RAFI webservice.
+3. CENECO
+	-Files that were sent by miss Ellen were dated from 2018 instead of 2019.
+	-Staging ceneco cant be accessed on their end and will need to check on this as well.
+
+		
